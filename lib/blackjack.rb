@@ -40,9 +40,9 @@ def hit? (card_total)
     new_card = deal_card
     card_total += new_card
     card_total
-  elsif user_input == "s"  
+  elsif user_input == "s"
     card_total
-  else 
+  else
     invalid_command
     prompt_user
     card_total

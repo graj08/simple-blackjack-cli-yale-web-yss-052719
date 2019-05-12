@@ -63,6 +63,6 @@ def runner
   # code runner here
 card_total = 0
 welcome
-card_total == initial_round
+card_total = initial_round
 puts "Current card_total is #{card_total}"
 end

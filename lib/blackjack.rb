@@ -39,9 +39,7 @@ def hit? (card_total)
   user_input = get_user_input
   if user_input == "h"
     new_card = deal_card
-    puts "the new card is #{new_card}"
     card_total = card_total+new_card
-    puts "the new card total is #{card_total}"
     card_total
   elsif user_input == "s"
     card_total
@@ -68,7 +66,6 @@ welcome
 card_total = initial_round
 until card_total > 21
 card_total = hit? (card_total)
-puts "the post-hit card total is #{card_total}"
 display_card_total (card_total)
 end
 end_game

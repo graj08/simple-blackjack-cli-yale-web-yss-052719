@@ -64,6 +64,7 @@ def runner
   welcome
   card_total = initial_round
 until card_total > 21
+  display_card_total
   prompt_user
   get_user_input
   hit?

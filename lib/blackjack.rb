@@ -68,4 +68,5 @@ initial_round
   hit? (card_total)
   display_card_total (card_total)
 end
+end_game
 end

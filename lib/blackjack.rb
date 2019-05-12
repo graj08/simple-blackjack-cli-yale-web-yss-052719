@@ -61,8 +61,9 @@ end
 
 def runner
   # code runner here
-  welcome
-card_total == initial_round
+card_total = 0
+welcome
+initial_round
 until card_total > 21
   display_card_total
   prompt_user

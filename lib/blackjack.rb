@@ -64,5 +64,9 @@ def runner
 card_total = 0
 welcome
 card_total = initial_round
-puts "Current card_total is #{card_total}"
+until card_total > 21
+hit?
+display_card_total
+end
+end_game
 end

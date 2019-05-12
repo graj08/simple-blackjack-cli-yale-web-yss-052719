@@ -41,6 +41,7 @@ def hit? (card_total)
     new_card = deal_card
     puts "the new card is #{new_card}"
     card_total = card_total+new_card
+    puts "the new card total is #{card_total}"
     card_total
   elsif user_input == "s"
     card_total

@@ -64,7 +64,4 @@ def runner
 card_total = 0
 welcome
 card_total == initial_round
-  
-
-end_game
 end
